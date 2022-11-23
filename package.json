@@ -1,0 +1,29 @@
+{
+  "name": "ywhatfont",
+  "version": "1.0.0",
+  "description": "try to get the font's information for web page",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "npx tsc",
+    "dev": "ts-node index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yi-xiao/yWhatFont.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yi-xiao/yWhatFont/issues"
+  },
+  "homepage": "https://github.com/yi-xiao/yWhatFont#readme",
+  "dependencies": {
+    "@types/node": "^18.11.9",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.4.1",
+    "typescript": "^4.9.3"
+  }
+}
